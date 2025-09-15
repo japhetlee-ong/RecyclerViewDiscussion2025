@@ -16,6 +16,18 @@
             android:layout_height="wrap_content"
             android:queryHint="Search items..." />
 
+        <!-- Empty view -->
+        <TextView
+            android:id="@+id/tv_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="No shopping list"
+            android:visibility="gone"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:textColor="@android:color/darker_gray" />
+
         <!-- RecyclerView -->
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_view"
